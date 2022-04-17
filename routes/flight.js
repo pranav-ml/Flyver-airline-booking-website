@@ -13,7 +13,6 @@ const airportsList = require("../utils/airportsList");
 
 router.get("/", (req, res) => {
     const airports = airportsList.airports;
-    // console.log(airports);
     res.render("flights/index", { airports });
 });
 

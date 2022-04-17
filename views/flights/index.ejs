@@ -20,7 +20,7 @@
 				<input list="airports" type="text" aria-label="to" class="form-control index-input" value="MAA" name="to" autocomplete="false" required>
 				<datalist id="airports">
 					<% for (let airport of airports) { %>
-						<option value=<%= airport.IATA_code %>> <%= airport.city_name %> </option>
+						<option value=<%= airport.IATA_code %>><%= airport.city_name %></option>
 					<% } %>
 				</datalist>
 				<input type="text" id="datepicker" aria-label="date" class="form-control index-input"  name="date" value="<%= date %>" autocomplete="false" required>
