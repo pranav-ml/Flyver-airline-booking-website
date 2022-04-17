@@ -1,0 +1,29 @@
+<% layout("layouts/auth-boilerplate") %>
+
+<div class="row">
+  <div class="col-6 offset-3">
+    <form action="/register" method="post">
+      <div class="box card" style="background-color: #020086;"> 
+        <h1>Register</h1>
+
+        <div class="textbox">
+          <i class="fas fa-user"></i>
+          <input type="text" placeholder="Name" name="name" required>
+        </div>
+
+        <div class="textbox">
+          <i class="fas fa-envelope"></i>
+          <input type="email" placeholder="Email" name="username" required>
+        </div>
+
+        <div class="textbox">
+          <i class="fas fa-lock"></i>
+          <input type="password" placeholder="Password" name="password" required>
+        </div>
+
+        <input type="submit" class="bttn" value="Sign up">
+        <p class="foot">Already Registerd? <a href="/login" title=""><b>Sign In</b></a></p>
+      </div>
+    </form>
+  </div>
+</div>
