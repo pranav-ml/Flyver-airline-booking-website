@@ -24,12 +24,12 @@ Once you have Node.js and MongoDB installed on your computer,
 
 #### Clone or download this repository.
 ```sh
-git clone https://github.com/pranav-ml/Airline_booking_website.git
+git clone https://github.com/pranav-ml/Flyver-airline-booking-website.git
 ```
 
 #### Change the folder and Install dependencies.
 ```sh
-cd Airline_booking_website
+cd Flyver-airline-booking-website
 npm install
 ```
 
